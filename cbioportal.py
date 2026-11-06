@@ -7,6 +7,12 @@ import csv
 
 BASE_URL = "https://www.cbioportal.org/api"
 
+#############################
+#Usage example:
+#python cbioportal.py "coad" -o "coadsamples.tsv"
+#
+###############################################
+
 
 def get_json(endpoint, params=None):
     url = BASE_URL + endpoint
